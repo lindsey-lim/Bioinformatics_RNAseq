@@ -8,4 +8,4 @@ The original number of raw reads in the WTA1 forward read was 21098941 and in th
 
 To clean the reads, I used this [script](https://github.com/lindsey-lim/Bioinformatics_RNAseq/blob/4480e4b229ef2ebed3e0fa842e05009ba0d211a9/Scripts/trimmomatic_RNAseq.SBATCH)
 
-After cleaning the reads with trimmomatic, the number of raw reads in the WTA1 forward paired end was 20359567 and in the WTA1 reverse paired end was 20359567. The number of raw reads in the WTA2 forward paired end was 21188745 and in the WTA2 reverse paired end was 21188745. After running the FASTQC, the main things noted in the WTA1 forward was 
+After cleaning the reads with trimmomatic, the number of raw reads in the WTA1 forward paired end was 20359567 and in the WTA1 reverse paired end was 20359567. The number of raw reads in the WTA2 forward paired end was 21188745 and in the WTA2 reverse paired end was 21188745. After running the FASTQC, the main things noted in the WTA1 forward and reverse was the Per sequence GC content, Sequence Length Distribution, and Sequence Duplication Levels. The main things in the WTA2 forward and reverse was the Sequence Length Distribution and Sequence Duplication Levels.
