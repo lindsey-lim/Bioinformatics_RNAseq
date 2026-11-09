@@ -4,13 +4,8 @@ This study works with *Candida albicans*, which is a commensal yeast that can ca
 
 ### Cleaning
 
-The original number of raw reads in the WTA1 forward read was 21098941 and in the WTA1 reverse read was 21098941. The original number of raw reads in the WTA2 forward read was 21972519 and in the WTA2 reverse read was 21972519. After running the FASTQC, the main things to fix were the per base sequence content, sequence duplication levels, and per sequence GC content.
+The original number of raw reads in the WTA1 forward read was 21098941 and in the WTA1 reverse read was 21098941. The original number of raw reads in the WTA2 forward read was 21972519 and in the WTA2 reverse read was 21972519. After running the FASTQC, the main things noted in the WTA1 forward and reverse was the Per base sequence content, Per sequence GC content, and Sequence Duplication levels. The main things noted in the WTA2 forward was Per base sequence content and Sequence Duplication Levels. The main things noted in the WTA2 reverse was the Per tile sequence quality, Per sequence GC content, and Sequence Duplication Levels. 
 
-To clean the reads, I used the following trimmomatic commands:
-SLIDINGWINDOW:4:15 \
-HEADCROP:17 \
-TRAILING:15 \
-ILLUMINACLIP:$adapters:2:30:10 \
-MINLEN:75
+To clean the reads, I used this [script](https://github.com/lindsey-lim/Bioinformatics_RNAseq/blob/4480e4b229ef2ebed3e0fa842e05009ba0d211a9/Scripts/trimmomatic_RNAseq.SBATCH)
 
-After cleaning the reads with trimmomatic, the number of raw reads in the WTA1 forward paired end was 20359567 and in the WTA1 reverse paired end was 20359567. The number of raw reads in the WTA2 forward paired end was 21188745 and in the WTA2 reverse paired end was 21188745. After running the FASTQC, the main things to fix were 
+After cleaning the reads with trimmomatic, the number of raw reads in the WTA1 forward paired end was 20359567 and in the WTA1 reverse paired end was 20359567. The number of raw reads in the WTA2 forward paired end was 21188745 and in the WTA2 reverse paired end was 21188745. After running the FASTQC, the main things noted in the WTA1 forward was 
