@@ -4,6 +4,10 @@ This study investigates how thiamine availability affects gene expression and me
 
 The bioinformatics workflow consisted of assessing raw sequencing read quality using FastQC, trimming reads with Trimmomatic, aligning the cleaned reads to a *C. albicans* reference genome using Bowtie2, and preparing the aligned reads for gene-level quantification using HTseq. 
 
+Files: 
+WTA1 thymine sample: WTA1_1.fq
+WTA1 non thymine sample: WTA1_2.fq
+
 ### Raw Reads
 
 The sequencing data consisted of paired-end reads, with separate FASTQ files containing the forward and reverse reads for each sample. For the WTA1 sample, the forward FASTQ file was WTA1_1.fq and the reverse FASTQ file was WTA1_2.fq. The number of original read pairs was 21098941. For the WTA2 sample, the forward FASTQ file was WTA2_1.fq, and the reverse FASTQ file was WTA2_2.fq. The number of original read pairs was 21972519. 
