@@ -114,3 +114,7 @@ I then wrote out the [SBATCH script](https://github.com/lindsey-lim/Bioinformati
 For this analysis, I obtained a gene annotation file in GTF format from NCBI. 
 
 [Annotation File](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/182/965/GCF_000182965.3_ASM18296v3/GCF_000182965.3_ASM18296v3_genomic.gtf.gz). 
+
+After running the HTSeq SBATCH script, I had WTA1_htseqCount for the first sample with thymine and WTA2_htseqCount for the first sample without thymine. To check the htseq-count results, I checked the lines in the htseq-count files with the NCBI number of genes.
+
+WTA1_htseqCount had 6268 lines and WTA2_htseqCount had 6268 lines. NCBI showed the *Candida albicans* genome has 6263 genes, so the htseq-count results matched the NCBI information.
