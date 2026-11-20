@@ -58,6 +58,13 @@ I aligned the cleaned forward and reverse reads from each sample to the indexed 
 
 For the WTA1 alignment, the input files were WTA1_1PE (forward) and WTA1_2PE (reverse). The output file was WTA1.sam. The percentage of read pairs that aligned concordantly exactly one time was 88.72%. For the WTA2 alignment, the input files were WTA2_1PE (forward) and WTA2_2PE (reverse). The output file was WTA2.sam. The percentage of read pairs that aligned concordantly exactly one time was 89.22%. 
 
+This is the z01 with the alignment rates for the WTA1 alignment: 
+<img width="218" height="162" alt="Screenshot 2026-11-20 at 1 46 37 PM" src="https://github.com/user-attachments/assets/c1096eb9-73e0-4712-b76e-f90e497d37f7" />
+
+This is the z01 with the alignment rates for the WTA2 alignment:
+<img width="218" height="162" alt="Screenshot 2026-11-20 at 2 28 56 PM" src="https://github.com/user-attachments/assets/41bc5380-7c61-4b53-aeaf-97c3d7e96038" />
+
+
 WTA1.sam FastQC Flagged Modules:
 
 <img width="218" height="162" alt="Screenshot 2026-11-09 at 7 42 00 PM" src="https://github.com/user-attachments/assets/8313bc30-03c7-4cce-ac35-295efa4a37a0" />
