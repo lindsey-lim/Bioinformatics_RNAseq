@@ -5,7 +5,9 @@ This study investigates how thiamine availability affects gene expression and me
 The bioinformatics workflow consisted of assessing raw sequencing read quality using FastQC, trimming reads with Trimmomatic, aligning the cleaned reads to a *C. albicans* reference genome using Bowtie2, and preparing the aligned reads for gene-level quantification using HTseq. 
 
 Files: 
+
 WTA1 thymine sample: WTA1_1.fq
+
 WTA1 non thymine sample: WTA1_2.fq
 
 ### Raw Reads
